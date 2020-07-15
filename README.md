@@ -1,5 +1,5 @@
 # FORK AT YOUR OWN RISK
-# Documentation/Guide, visit [How2Techy](https://how2techy.com/x-tra-userbot-plugin-guide-part1/)
+# Documentation/Guide, contact [Gamerfucker on tg](https://t.me/Gamerfucker)
 # Installing
 Contact https://t.me/Gamerfucker for any problem or enquiry
 ### The Easy Way
