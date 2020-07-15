@@ -52,7 +52,7 @@ async def _(event):
     userid = event.from_id
     packname = f"{user.first_name}'s @Gamerfucker Vol.{pack}"
     packshortname = f"vol_{pack}_with_{userid}"
-    await event.edit("`Look dat way,it's a gurl!`**（　ﾟДﾟ）**\n`Meanwhile, lemme kang this stcker over hehe`**ヽ༼ ಠ益ಠ ༽ﾉ**")
+    await event.edit("`ye mera sticker hai!`**（　ﾟДﾟ）**\n`mai is sticker Ko le Raha hu😂`**ヽ༼ ಠ益ಠ ༽ﾉ**")
 
     is_a_s = is_it_animated_sticker(reply_message)
     file_ext_ns_ion = "Gamerfucker_roxx.png"
