@@ -1,4 +1,4 @@
-#   Copyright 2019 - 2020 DarkPrinc3
+#   Copyright 2019 - 2020 Gamerfucker
 
 #   Licensed under the Apache License, Version 2.0 (the "License");
 #   you may not use this file except in compliance with the License.
@@ -74,7 +74,7 @@ for name in files:
 
 import userbot._core
 
-print("Yay your userbot is officially working. Ja gaand mara")
+print("Ya your userbot is officially working.ab maa chod do sabki")
 
 if len(argv) not in (1, 3, 4):
     bot.disconnect()
