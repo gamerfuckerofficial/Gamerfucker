@@ -6,14 +6,17 @@ from platform import uname
 from userbot import ALIVE_NAME
 from userbot.utils import admin_cmd
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "**No Name set yet.** [Contact.](https://t.me/Gamerfucker)"
 
-@command(outgoing=True, pattern="^.alive$")
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
+
+#@command(outgoing=True, pattern="^.alive$")
+@borg.on(admin_cmd(pattern=r"alive"))
 async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
-    await alive.edit("`Currently Alive, my peru master!` **ψ(｀∇´)ψ**\n\n"
-                     "`Telethon version: 6.9.0\nPython: 3.7.3\n`"
-                     # Don't change this else you a TikTok loser, Son of Jinping. Add your own.
-                     "`Bot created by:` @Gamerfucker\n"
-                     f"`My peru owner`: {DEFAULTUSER}\n\n"
-                     "https://github.com/gamerfuckerofficial/Gamerfucker")
+    await alive.edit("`Abe saale Apna Kaam Kar Baap Ko Mat Dekh bhadve.\n\nBot version: 1.5\nPython: 3.8.3\n\n`"
+                     f"`Mera Maalik`: {DEFAULTUSER}\n"
+                     "`Telethon version: 6.9.0\nPython: 3.8.3\nMade by:` @Gamerfucker\n"
+                     f"`Sabka Baap` : {DEFAULTUSER} \n" "`Always with my Maalik\n`"
+                     "[Deploy this userbot Now](https://github.com/gamerfuckerofficial/Gamerfucker)")
+
+
