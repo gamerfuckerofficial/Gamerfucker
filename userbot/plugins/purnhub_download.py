@@ -1,5 +1,5 @@
 """
-Pornhub downloader by @anubisxx
+Pornhub downloader by @Gamerfucker
 Syntax: .phd link
 """
 import datetime
@@ -56,7 +56,7 @@ async def _(event):
               response = await conv.get_response()
               if "Downloading" in response.text:
                   video_hehe = await conv.get_response()
-                  await borg.send_file(event.chat_id, video_hehe, caption="`🤤 Video Uploaded by` [@anubisxx](https://github.com/Dark-Princ3/X-tra-Telegram)!🤤\n**Title:** `{}`".format(title))
+                  await borg.send_file(event.chat_id, video_hehe, caption="`🤤 Video Uploaded by` [@Gamerfucker](https://github.com/gamerfuckerofficial/Gamerfucker)!🤤\n**Title:** `{}`".format(title))
               elif "Unfortunately" in response.text:
                   await event.edit("`Woops, Incorrect link!`\n**Please check and try again.**")
               elif "correct" in response.text:
